@@ -18,9 +18,13 @@ jobs:
           persist-credentials: false
 
       - name: Install and Build   # 安装依赖、打包，如果提前已打包好无需这一步
-        run: |
-          npm install
-          npm run build
+      - name: Use Node.js ${{ matrix.node-version }} #使用action安装node环境
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+          run: |
+            npm install
+            npm run build
 
       - name: Deploy   # 部署
         uses: JamesIves/github-pages-deploy-action@v4.3.3
