@@ -15,7 +15,6 @@
       <span>广东普宁</span>
       <span>本科</span>
       <span>韶关学院</span>
-      <span>电子信息科学与技术</span>
     </p>
 
     <p class="base__desc">“主要从事 B 端后台管理系统以及 Electron 客户端开发。个人技术栈主要以 Vue 为主，平时喜欢钻研 Vue 源码以及最新的前端技术，热衷于在 github 里学习热门的开源项目。”</p>
