@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [14.21.0] #指定node版本
+        node-version: [16.18.1] #指定node版本
     steps:
       - name: Checkout  ️ # 将代码拉取到虚拟机
         uses: actions/checkout@v2.3.1  
