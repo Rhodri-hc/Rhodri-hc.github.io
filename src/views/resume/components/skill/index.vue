@@ -26,7 +26,7 @@ export default {
   data() {
     return {
       skillList:[
-        "熟练使用 Vue.js 前端开发框架，了解 Vue2、Vue3 核心原理，了解 Nuxt.js 搭建服务端渲染",
+        "熟练使用 Vue 框架以及相关生态技术，可以独立开发项目，熟悉相关框架原理，了解 Nuxt.js 搭建服务端渲染",
         "熟练使用 Vue 主流 UI 框架（Element-UI），并有深入学习经验，具有公司自研组件库开发经验",
         "熟悉 Electron 构建桌面应用程序，熟悉小程序开发框架 ，具有小程序 mpvue 框架开发经验",
         "熟悉前端性能优化方法，熟悉 http、TCP 协议，熟悉各种 Web 标准规范，了解设计模式并运用在开发中",
