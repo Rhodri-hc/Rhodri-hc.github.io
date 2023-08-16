@@ -4,8 +4,7 @@ on:
   push:
     branches:
       - main
-permissions:
-  contents: write
+
 jobs:
   build-and-deploy:
     concurrency: ci-${{ github.ref }}
@@ -16,6 +15,7 @@ jobs:
     steps:
       - name: Checkout  ️ # 将代码拉取到虚拟机
         uses: actions/checkout@v2.3.1  
+ 
 
       - name: Install and Build   # 安装依赖、打包，如果提前已打包好无需这一步
         uses: actions/setup-node@v1
@@ -26,9 +26,9 @@ jobs:
             npm run build
 
       - name: Deploy   # 部署
-        uses: peaceiris/actions-gh-pages@v3
+        uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
-          publish_branch: main_h5 # 部署后提交到那个分支
-          publish_dir: docs # 这里填打包好的目录名称
-          github_token: ${{ secrets.RHODRI_CHEUNG_RESUME }
+          branch: main_h5 # 部署后提交到那个分支
+          folder: docs # 这里填打包好的目录名称
+          ACCESS_TOKEN: ${{ secrets.RHODRI_CHEUNG_RESUME }} # secrets.VUE2_H5 是我的 secret 名称，需要替换成你的,这一行不要也可以
 
