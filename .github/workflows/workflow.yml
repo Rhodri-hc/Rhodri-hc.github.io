@@ -29,6 +29,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           branch: main_h5 # 部署后提交到那个分支
-          folder: docs # 这里填打包好的目录名称
-          ACCESS_TOKEN: ${{ secrets.RHODRI_CHEUNG_RESUME }} # secrets.VUE2_H5 是我的 secret 名称，需要替换成你的,这一行不要也可以
+          publish_dir: docs # 这里填打包好的目录名称
+          github_token: ${{ secrets.RHODRI_CHEUNG_RESUME }
 
