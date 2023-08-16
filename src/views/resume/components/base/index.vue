@@ -33,7 +33,7 @@
 
     <div class="base__connect">
         <strong class="base__connect--justilfy">微信</strong>：
-        <span class="base__connect-text">13622450494</span>
+        <span class="base__connect-text">136-2245-0494</span>
 
         <strong class="base__connect--justilfy">邮箱</strong>：
         <span class="base__connect-text">1029267498@qq.com</span>
