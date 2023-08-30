@@ -90,7 +90,7 @@ export default {
 
     &--justilfy{
       display: inline-block;
-      min-width: 64px;
+      min-width: 63px;
       text-align-last: justify;
     }
   }
