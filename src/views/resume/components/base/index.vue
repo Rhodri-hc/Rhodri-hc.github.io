@@ -27,7 +27,7 @@
 
       <div>
         <strong>工作年限</strong>：
-        <span>四年半</span>
+        <span>六年</span>
       </div>
     </div>
 
