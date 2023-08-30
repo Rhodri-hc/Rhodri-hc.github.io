@@ -31,12 +31,12 @@
       </div>
     </div>
 
-    <div class="base__connect">
+    <!-- <div class="base__connect">
         <strong class="base__connect--justilfy">微信</strong>：
-        <span class="base__connect-text">13622450494</span>
+        <span class="base__connect-text">136****0494</span>
 
         <strong class="base__connect--justilfy">邮箱</strong>：
-        <span class="base__connect-text">1029267498@qq.com</span>
+        <span class="base__connect-text">102****498@qq.com</span>
        
         <strong>github</strong>：
         <a 
@@ -44,7 +44,7 @@
            class="base__connect-text" 
            href="https://github.com/Rhodri-hc" 
         >https://github.com/Rhodri-hc</a>
-    </div>
+    </div> -->
 
     
   </div>
