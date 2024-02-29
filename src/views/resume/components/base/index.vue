@@ -17,7 +17,11 @@
       <span>韶关学院</span>
     </p>
 
-    <p class="base__desc">“主要从事 B 端后台管理系统以及 Electron 客户端开发。个人技术栈主要以 Vue 为主，平时喜欢钻研 Vue 源码以及最新的前端技术，热衷于在 github 里学习热门的开源项目。”</p>
+    <p class="base__desc">
+      “主要从事 B 端后台管理系统以及 Electron 客户端开发。个人技术栈主要以 Vue
+      为主，平时喜欢钻研 Vue 源码以及最新的前端技术，热衷于在 github
+      里学习热门的开源项目。”
+    </p>
 
     <div class="base__work">
       <div class="base__work-text">
@@ -31,22 +35,21 @@
       </div>
     </div>
 
-    <!-- <div class="base__connect">
-        <strong class="base__connect--justilfy">微信</strong>：
-        <span class="base__connect-text">136****0494</span>
+    <div class="base__connect">
+      <strong class="base__connect--justilfy">微信</strong>：
+      <span class="base__connect-text">13622450494</span>
 
-        <strong class="base__connect--justilfy">邮箱</strong>：
-        <span class="base__connect-text">102****498@qq.com</span>
-       
-        <strong>github</strong>：
-        <a 
-           target="_blank"
-           class="base__connect-text" 
-           href="https://github.com/Rhodri-hc" 
-        >https://github.com/Rhodri-hc</a>
-    </div> -->
+      <strong class="base__connect--justilfy">邮箱</strong>：
+      <span class="base__connect-text">1029267498@qq.com</span>
 
-    
+      <strong>github</strong>：
+      <a
+        target="_blank"
+        class="base__connect-text"
+        href="https://github.com/Rhodri-hc"
+        >https://github.com/Rhodri-hc</a
+      >
+    </div>
   </div>
 </template>
 <script>
@@ -54,53 +57,51 @@ export default {
   name: "base",
   components: {},
   mixins: [],
-  props:{},
+  props: {},
   data() {
     return {};
   },
   computed: {},
   created() {},
   mounted() {},
-  methods: {}
+  methods: {},
 };
 </script>
 <style scoped lang="scss">
-.base{
-  &__info{
-    & > span{
+.base {
+  &__info {
+    & > span {
       margin-right: 15px;
-    } 
+    }
   }
 
-  &__work{
+  &__work {
     display: flex;
     margin-top: -5px;
-    &-text{
+    &-text {
       margin-right: 54px;
       // margin-right: 58px;
     }
   }
 
-  &__connect{
-    &-text{
+  &__connect {
+    &-text {
       margin-right: 20px;
-      text-decoration:none
+      text-decoration: none;
     }
-    
 
-    &--justilfy{
+    &--justilfy {
       display: inline-block;
       min-width: 63px;
       text-align-last: justify;
     }
   }
 
-  &__desc{
+  &__desc {
     line-height: 26px;
     font-style: italic;
     font-size: 15px;
     margin-top: -10px;
   }
-
 }
 </style>
