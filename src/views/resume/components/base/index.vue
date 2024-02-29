@@ -31,7 +31,7 @@
 
       <div>
         <strong>工作年限</strong>：
-        <span>六年</span>
+        <span>五年</span>
       </div>
     </div>
 
